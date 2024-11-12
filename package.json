@@ -8,6 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "tauri": "cd src-tauri && tauri",
     "tauri:dev": "cd src-tauri && tauri dev || cd ..",
     "tauri:build": "cd src-tauri && tauri build || cd .."
   },
